@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './App.css'
 
 const TodoList = () => {
-
     const [list, setList] = useState("");
     const [item, setItem] = useState([]);
     const addItem = () => {
