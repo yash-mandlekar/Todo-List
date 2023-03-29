@@ -19,7 +19,7 @@ const TodoList = () => {
 
     return <div className='taskcnt'>
         <div className='task'>
-        <h2 tabIndex='1'>{item.length} Tasks</h2>
+        <h2>{item.length} Tasks</h2>
         <ol>
             {
                 item.map((elem, i) => {
