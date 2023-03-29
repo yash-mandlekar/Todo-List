@@ -9,12 +9,12 @@ const App = () => {
   return (
     <>
         <TodoList/>
-        {/* <div ref={ref} className="box-cnt">
+        <div ref={ref} className="box-cnt">
           <div className="box">1</div>
           <div className="box">2</div>
           <div className="box">3</div>
         </div>
-        <button onClick={handleScroll}>scroll</button> */}
+        <button onClick={handleScroll}>scroll</button>
     </>
   );
 }
