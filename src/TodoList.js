@@ -4,8 +4,32 @@ import "./App.css";
 const TodoList = () => {
   const [list, setList] = useState("");
   const [item, setItem] = useState([
-    { task: "Learn React", isCompleted: false },
-    { task: "Learn Node", isCompleted: false },
+    { task: "A", isCompleted: false },
+    { task: "B", isCompleted: false },
+    { task: "C", isCompleted: false },
+    { task: "D", isCompleted: false },
+    { task: "E", isCompleted: false },
+    { task: "F", isCompleted: false },
+    { task: "G", isCompleted: false },
+    { task: "H", isCompleted: false },
+    { task: "I", isCompleted: false },
+    { task: "J", isCompleted: false },
+    { task: "K", isCompleted: false },
+    { task: "L", isCompleted: false },
+    { task: "M", isCompleted: false },
+    { task: "N", isCompleted: false },
+    { task: "O", isCompleted: false },
+    { task: "P", isCompleted: false },
+    { task: "Q", isCompleted: false },
+    { task: "R", isCompleted: false },
+    { task: "S", isCompleted: false },
+    { task: "T", isCompleted: false },
+    { task: "U", isCompleted: false },
+    { task: "V", isCompleted: false },
+    { task: "W", isCompleted: false },
+    { task: "X", isCompleted: false },
+    { task: "Y", isCompleted: false },
+    { task: "Z", isCompleted: false },
   ]);
   const addItem = (e) => {
     e.preventDefault();
